@@ -35,6 +35,14 @@ const moves = [
       'Silks',
     ],
   },
+  {
+    guid: '7F6670C1-6D2B-4CBC-8962-05939FAF1227',
+    name: 'Ankle Hang',
+    apparatuses: [
+      'Lyra',
+      'Trapeze',
+    ],
+  },
 ];
 
 module.exports = {

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`moves queries all returns all moves 1`] = `
+Object {
+  "data": Object {
+    "moves": Array [
+      Object {
+        "name": "Meathook",
+      },
+      Object {
+        "name": "Owl",
+      },
+    ],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
+
+exports[`moves queries all() returns all moves 1`] = `
+Object {
+  "data": Object {
+    "moves": Array [
+      Object {
+        "name": "Meathook",
+      },
+      Object {
+        "name": "Owl",
+      },
+      Object {
+        "name": "Man in the Moon",
+      },
+      Object {
+        "name": "Salto Sit",
+      },
+    ],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
